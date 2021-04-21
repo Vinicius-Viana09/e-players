@@ -327,34 +327,65 @@ h4{
 }
 
 .próximos_jogos{
-    background-color: aqua;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 411px;
+    height: 1170px;
+    margin-left: 896px;
+    margin-top: -1186px;
+}
+
+.box_proximos{
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .data_proximos{
     font-family: 'Barlow', sans-serif;
-    font-size: 23px;
+    font-size: 27px;
     font-weight: bold;
     color: white;
+    margin: 0px 24px;
 }
 
 .p_jogos_2{
     font-family: 'Barlow', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: normal;
 }
 
+.span_vs_2{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .imgs_sk_2{
-    width: 65px;
-    height: 60px;
+    width: 75px;
+    height: 70px;
 }
 
 .imgs_fl_2{
-    width: 65px;
-    height: 60px;
+    width: 75px;
+    height: 70px;
+}
+
+#noticia_2{
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white; 
+    margin-top: -148px;
+    margin-left: -206px;
+}
 }
 
 .container_footer{
