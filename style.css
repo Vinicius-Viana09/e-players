@@ -386,7 +386,6 @@ h4{
     margin-top: -148px;
     margin-left: -206px;
 }
-}
 
 .container_footer{
     background-color: black;
@@ -451,6 +450,8 @@ input{
     border-radius: 5px 0px 0px 5px;
     width: 284.96px;
     height: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
 }
 
 .cadastro button{
