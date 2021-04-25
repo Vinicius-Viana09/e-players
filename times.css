@@ -37,6 +37,12 @@ header{
     top: 39px;
 }
 
+.btn_menu i{
+    display: none;
+    color: white;
+    font-size: 30px;
+}
+
 .container_header{
     display: flex;
     justify-content: space-between;
@@ -113,10 +119,6 @@ h1{
     width: 257px;
     background: #001F70;
     border-radius: 10px;
-}
-
-.box_exemplo{
-    
 }
 
 .box_exemplo table{
@@ -249,9 +251,6 @@ input{
     height: 47px;
 }
 
-.btn_menu{
-    display: none;
-}
 
 .banner_jodador{
     background-image: url(assets/banner\ jogador\ 2.png);
@@ -292,4 +291,64 @@ input{
     height: 40px;
     width: 257px;
     border-radius: 10px;
+}
+
+.btn_menu{
+    display: none;
+}
+
+@media (max-width: 420px){
+    .container{
+        width: 80vw;
+    }
+
+    .container_header{
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_header{
+        display: none;
+
+        height: 300px;
+        width: 100%;
+        padding-left: 10vw;
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: unset;
+
+        position: absolute;
+        left: 0;
+        top: 60px;
+        
+        background-color: black;
+    }
+
+    .btn_menu i{
+        display: inline-block;
+    }
+
+    .logo_eplayers{
+        height: 25px;
+        margin-right: unset;
+    }
+
+    .box_cadastro{
+        width: 350px;
+    }
+
+    .input_grande{
+        width: 310px;
+    }
+
+    .box_exemplo table{
+        height: 157px;
+        width: 350px;
+    }
+
+    .logo_footer{
+        height: 23px;
+        width: 170px;
+    }
 }
